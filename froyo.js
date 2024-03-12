@@ -4,7 +4,7 @@ let greeting = prompt("What flavor would you like?",
 // join turns an array into a string?
 
 
-let userOrder = greeting.split(",");
+let userOrder = greeting.split(", ");
 
 console.log(userOrder);
 //flavors is vanila,strawberry, coffee, how to condense and keep count?
